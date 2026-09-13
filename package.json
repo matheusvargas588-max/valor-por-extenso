@@ -1,0 +1,17 @@
+{
+  "name": "valor-por-extenso",
+  "version": "0.3.0",
+  "description": "Biblioteca para converter valores numéricos em extenso",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/main.ts",
+    "dev": "bun run --watch src/main.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
